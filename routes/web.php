@@ -20,3 +20,4 @@ Route::group(['prefix' => '/dashboard', 'middleware' => ['auth', 'auth.status']]
 	Route::get('{path?}', 'HomeController@index')->where('path', '[\/\w\.-]*');
 });
 Route::any('/wechat', 'WechatController@serve');
+Route::get('/getUserInfo', 'WechatController@getUserInfo')->middleware('wechat.oauth');
