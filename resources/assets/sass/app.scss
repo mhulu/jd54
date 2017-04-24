@@ -1,0 +1,22 @@
+
+// Bootstrap
+@import "../bower_components/bootstrap-sass/assets/stylesheets/bootstrap";
+
+// Ionicons
+@import 'node_modules/font-awesome/scss/font-awesome';
+
+// Sweetalert
+@import "node_modules/sweetalert/dev/sweetalert";
+
+// custom
+@import "./dashboard";
+@import "./skin_blue";
+@import "./form";
+@import "./login";
+@import "./overlay";
+@import "./utils";
+@import "./animate";
+@import "./custom";
+@import "./toastr";
+@import "./datepicker";
+@import "./panel";

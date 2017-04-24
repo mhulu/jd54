@@ -1,0 +1,37 @@
+@import "variables";
+.login{
+    background-color: #fff;
+  }
+
+  // .header{
+  //   border-radius: 3px 3px 0 0;
+  //   min-height: 124px;
+  // }
+
+  .login-tab{
+    .tab-headers {
+      a {
+        background-color: #ddd;
+        text-align: center;
+        color: $black;
+        cursor: pointer;
+        height:50px;
+        line-height: 50px;
+        font-size: 14px;
+      }
+      .active{
+        background-color: $primary;
+        color:white;
+      }
+    }
+    
+    margin-bottom:20px;
+  }
+
+  footer{    
+        line-height: 30px;
+    img{
+        width:30px;
+        height:30px;
+    }
+  }

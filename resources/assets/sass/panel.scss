@@ -1,0 +1,470 @@
+/* ---------------------------------------------------------------------- */
+/*  Panels
+/* ---------------------------------------------------------------------- */
+.panel {
+  background: none;
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  color: #8e8e93;
+  border: none;
+  position: relative;
+}
+// .panel .collapse-on {
+//   display: none;
+// }
+// .panel .collapse-off {
+//   display: block;
+// }
+// .panel.collapses .panel-body {
+//   display: none;
+// }
+// .panel.collapses .collapse-on {
+//   display: block;
+// }
+// .panel.collapses .collapse-off {
+//   display: none;
+// }
+
+.panel-footer {
+  position: relative;
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: #dcdcdc;
+  padding: 15px;
+  background: none;
+}
+
+.panel-heading {
+  position: relative;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  padding: 15px;
+  min-height: 50px;
+
+}
+// .panel-heading .panel-heading-tabs {
+//   list-style: none;
+//   top: 0;
+//   right: 0;
+//   position: absolute;
+//   margin: 0;
+//   padding: 0;
+// }
+// .panel-heading .panel-heading-tabs > li {
+//   float: left;
+//   padding: 0 15px;
+//   border-left-width: 1px;
+//   border-left-style: solid;
+//   border-left-color: inherit;
+//   height: 50px;
+//   line-height: 50px;
+// }
+// .panel-heading .panel-heading-tabs > li.panel-tools {
+//   position: relative;
+//   filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
+//   opacity: 1;
+//   right: auto;
+//   top: auto;
+// }
+// .panel-heading .panel-heading-tabs > li.panel-tools .tmp-tool {
+//   right: 20px;
+//   top: auto;
+// }
+// .panel-heading .panel-heading-tabs > li.panel-tools .dropdown {
+//   line-height: normal;
+// }
+
+// .core-box .heading {
+//   margin-bottom: 15px;
+// }
+// .core-box .core-icon {
+//   width: 33.3333%;
+//   left: 0;
+//   top: 0;
+//   bottom: 0;
+//   position: absolute;
+// }
+// .core-box .core-icon .icon-big {
+//   line-height: 80px;
+// }
+// .core-box .core-content {
+//   margin-left: 33.3333%;
+//   min-height: 120px;
+// }
+// .core-box .heading {
+//   font-size: 12px;
+// }
+// .core-box .title {
+//   font-size: 20px;
+//   line-height: 21px;
+//   margin-bottom: 0;
+//   font-weight: 400;
+// }
+// .core-box .subtitle {
+//   font-size: 14px;
+//   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
+//   opacity: 0.8;
+// }
+// .core-box .content {
+//   line-height: 20px;
+//   margin-bottom: 15px;
+//   position: relative;
+//   padding-left: 60px;
+// }
+// .core-box .content .fa {
+//   font-size: 50px;
+//   left: 0;
+//   top: 0;
+//   position: absolute;
+//   width: 40px;
+// }
+// .core-box .view-more {
+//   float: right;
+// }
+// .core-box .view-more i {
+//   display: inline-block;
+// }
+
+.panel-tools {
+  position: absolute;
+  right: 10px;
+  top: 14px;
+  font-size: 12px;
+  z-index: 1;
+}
+.panel-tools .expand-on {
+  display: none;
+}
+
+// .panel-portfolio .portfolio-grid {
+//   padding: 0;
+//   text-align: center;
+//   overflow: hidden;
+//   max-height: 200px;
+//   position: relative;
+// }
+// .panel-portfolio .portfolio-grid .item {
+//   overflow: hidden !important;
+// }
+// .panel-portfolio .navigator {
+//   position: relative;
+//   text-align: center;
+//   margin-top: -40px;
+//   margin-bottom: 10px;
+//   z-index: 101;
+// }
+
+// .panel-transparent, .partition-transparent {
+//   background: none;
+//   position: relative;
+//   box-shadow: none;
+//   color: #5b5b60;
+// }
+// .panel-transparent .panel-tools .btn, .panel-transparent .panel-tools > a, .partition-transparent .panel-tools .btn, .partition-transparent .panel-tools > a {
+//   color: rgba(72, 71, 77, 0.7) !important;
+// }
+// .panel-transparent .panel-tools .btn:hover, .panel-transparent .panel-tools > a:hover, .partition-transparent .panel-tools .btn:hover, .partition-transparent .panel-tools > a:hover {
+//   color: #48474d !important;
+// }
+
+// .panel-primary, .partition-primary {
+//   background-color: #58748B;
+//   position: relative;
+//   color: #ffffff;
+// }
+// .panel-primary .panel-heading, .partition-primary .panel-heading {
+//   background-color: #58748B;
+//   border: none;
+// }
+// .panel-primary .panel-tools .btn, .panel-primary .panel-tools > a, .partition-primary .panel-tools .btn, .partition-primary .panel-tools > a {
+//   color: rgba(255, 255, 255, 0.8) !important;
+// }
+// .panel-primary .panel-tools .btn:hover, .panel-primary .panel-tools > a:hover, .partition-primary .panel-tools .btn:hover, .partition-primary .panel-tools > a:hover {
+//   color: #ffffff !important;
+// }
+
+// .panel-light-primary, .partition-light-primary {
+//   background-color: #718ea5;
+//   position: relative;
+//   color: #ffffff;
+// }
+// .panel-light-primary .panel-heading, .partition-light-primary .panel-heading {
+//   background-color: #718ea5;
+//   border: none;
+// }
+// .panel-light-primary .panel-tools .btn, .panel-light-primary .panel-tools > a, .partition-light-primary .panel-tools .btn, .partition-light-primary .panel-tools > a {
+//   color: rgba(255, 255, 255, 0.8) !important;
+// }
+// .panel-light-primary .panel-tools .btn:hover, .panel-light-primary .panel-tools > a:hover, .partition-light-primary .panel-tools .btn:hover, .partition-light-primary .panel-tools > a:hover {
+//   color: #ffffff !important;
+// }
+
+// .panel-dark-primary, .partition-dark-primary {
+//   background-color: #445a6c;
+//   position: relative;
+//   color: #ffffff;
+// }
+// .panel-dark-primary .panel-heading, .partition-dark-primary .panel-heading {
+//   background-color: #445a6c;
+//   border: none;
+// }
+// .panel-dark-primary .panel-tools .btn, .panel-dark-primary .panel-tools > a, .partition-dark-primary .panel-tools .btn, .partition-dark-primary .panel-tools > a {
+//   color: rgba(255, 255, 255, 0.8) !important;
+// }
+// .panel-dark-primary .panel-tools .btn:hover, .panel-dark-primary .panel-tools > a:hover, .partition-dark-primary .panel-tools .btn:hover, .partition-dark-primary .panel-tools > a:hover {
+//   color: #ffffff !important;
+// }
+
+// .panel-grey, .partition-grey {
+//   background-color: #c8c7cc;
+//   position: relative;
+//   color: #48474d;
+// }
+// .panel-grey .panel-tools .btn, .panel-grey .panel-tools > a, .partition-grey .panel-tools .btn, .partition-grey .panel-tools > a {
+//   color: rgba(72, 71, 77, 0.7) !important;
+// }
+// .panel-grey .panel-tools .btn:hover, .panel-grey .panel-tools > a:hover, .partition-grey .panel-tools .btn:hover, .partition-grey .panel-tools > a:hover {
+//   color: #48474d !important;
+// }
+
+// .panel-light-grey, .partition-light-grey {
+//   background-color: #f7f7f8;
+//   position: relative;
+//   color: #8e8e93;
+// }
+// .panel-light-grey .panel-tools .btn, .panel-light-grey .panel-tools > a, .partition-light-grey .panel-tools .btn, .partition-light-grey .panel-tools > a {
+//   color: rgba(142, 142, 147, 0.7) !important;
+// }
+// .panel-light-grey .panel-tools .btn:hover, .panel-light-grey .panel-tools > a:hover, .partition-light-grey .panel-tools .btn:hover, .partition-light-grey .panel-tools > a:hover {
+//   color: #8e8e93 !important;
+// }
+
+// .panel-dark-grey, .partition-dark-grey {
+//   background-color: #aeacb4;
+//   position: relative;
+//   color: #ffffff;
+// }
+// .panel-dark-grey .panel-tools .btn, .panel-dark-grey .panel-tools > a, .partition-dark-grey .panel-tools .btn, .partition-dark-grey .panel-tools > a {
+//   color: rgba(255, 255, 255, 0.7) !important;
+// }
+// .panel-dark-grey .panel-tools .btn:hover, .panel-dark-grey .panel-tools > a:hover, .partition-dark-grey .panel-tools .btn:hover, .partition-dark-grey .panel-tools > a:hover {
+//   color: #ffffff !important;
+// }
+
+// .panel-orange, .partition-orange {
+//   background-color: #F18636;
+//   position: relative;
+//   color: #ffffff;
+// }
+// .panel-orange .panel-tools .btn, .panel-orange .panel-tools > a, .partition-orange .panel-tools .btn, .partition-orange .panel-tools > a {
+//   color: rgba(255, 255, 255, 0.7) !important;
+// }
+// .panel-orange .panel-tools .btn:hover, .panel-orange .panel-tools > a:hover, .partition-orange .panel-tools .btn:hover, .partition-orange .panel-tools > a:hover {
+//   color: #ffffff !important;
+// }
+
+// .panel-purple, .partition-purple {
+//   background-color: #9A89B5;
+//   position: relative;
+//   color: #ffffff;
+// }
+// .panel-purple .panel-tools .btn, .panel-purple .panel-tools > a, .partition-purple .panel-tools .btn, .partition-purple .panel-tools > a {
+//   color: rgba(255, 255, 255, 0.7) !important;
+// }
+// .panel-purple .panel-tools .btn:hover, .panel-purple .panel-tools > a:hover, .partition-purple .panel-tools .btn:hover, .partition-purple .panel-tools > a:hover {
+//   color: #ffffff !important;
+// }
+
+// .panel-pink, .partition-pink {
+//   background-color: #F5888D;
+//   position: relative;
+//   color: #ffffff;
+// }
+// .panel-pink .panel-tools .btn, .panel-pink .panel-tools > a, .partition-pink .panel-tools .btn, .partition-pink .panel-tools > a {
+//   color: rgba(255, 255, 255, 0.7) !important;
+// }
+// .panel-pink .panel-tools .btn:hover, .panel-pink .panel-tools > a:hover, .partition-pink .panel-tools .btn:hover, .partition-pink .panel-tools > a:hover {
+//   color: #ffffff !important;
+// }
+
+// .panel-azure, .partition-azure {
+//   background-color: #5B9BD1;
+//   position: relative;
+//   color: #ffffff;
+// }
+// .panel-azure .panel-tools .btn, .panel-azure .panel-tools > a, .partition-azure .panel-tools .btn, .partition-azure .panel-tools > a {
+//   color: rgba(255, 255, 255, 0.7) !important;
+// }
+// .panel-azure .panel-tools .btn:hover, .panel-azure .panel-tools > a:hover, .partition-azure .panel-tools .btn:hover, .partition-azure .panel-tools > a:hover {
+//   color: #ffffff !important;
+// }
+
+// .panel-bricky, .partition-bricky {
+//   background-color: #894550;
+//   position: relative;
+//   color: #ffffff;
+// }
+// .panel-bricky .panel-tools .btn, .panel-bricky .panel-tools > a, .partition-bricky .panel-tools .btn, .partition-bricky .panel-tools > a {
+//   color: rgba(255, 255, 255, 0.7) !important;
+// }
+// .panel-bricky .panel-tools .btn:hover, .panel-bricky .panel-tools > a:hover, .partition-bricky .panel-tools .btn:hover, .partition-bricky .panel-tools > a:hover {
+//   color: #ffffff !important;
+// }
+
+// .panel-green, .partition-green {
+//   background-color: #5A8770;
+//   position: relative;
+//   color: #ffffff;
+// }
+// .panel-green .panel-tools .btn, .panel-green .panel-tools > a, .partition-green .panel-tools .btn, .partition-green .panel-tools > a {
+//   color: rgba(255, 255, 255, 0.7) !important;
+// }
+// .panel-green .panel-tools .btn:hover, .panel-green .panel-tools > a:hover, .partition-green .panel-tools .btn:hover, .partition-green .panel-tools > a:hover {
+//   color: #ffffff !important;
+// }
+
+// .panel-red, .partition-red {
+//   background-color: #C82E29;
+//   position: relative;
+//   color: #ffffff;
+// }
+// .panel-red .panel-tools .btn, .panel-red .panel-tools > a, .partition-red .panel-tools .btn, .partition-red .panel-tools > a {
+//   color: rgba(255, 255, 255, 0.7) !important;
+// }
+// .panel-red .panel-tools .btn:hover, .panel-red .panel-tools > a:hover, .partition-red .panel-tools .btn:hover, .partition-red .panel-tools > a:hover {
+//   color: #ffffff !important;
+// }
+
+// .panel-blue, .partition-blue {
+//   background-color: #407887;
+//   position: relative;
+//   color: #ffffff;
+// }
+// .panel-blue .panel-tools .btn, .panel-blue .panel-tools > a, .partition-blue .panel-tools .btn, .partition-blue .panel-tools > a {
+//   color: rgba(255, 255, 255, 0.7) !important;
+// }
+// .panel-blue .panel-tools .btn:hover, .panel-blue .panel-tools > a:hover, .partition-blue .panel-tools .btn:hover, .partition-blue .panel-tools > a:hover {
+//   color: #ffffff !important;
+// }
+
+// .panel-light-blue, .partition-light-blue {
+//   background-color: #5097aa;
+//   position: relative;
+//   color: #ffffff;
+// }
+// .panel-light-blue .panel-tools .btn, .panel-light-blue .panel-tools > a, .partition-light-blue .panel-tools .btn, .partition-light-blue .panel-tools > a {
+//   color: rgba(255, 255, 255, 0.7) !important;
+// }
+// .panel-light-blue .panel-tools .btn:hover, .panel-light-blue .panel-tools > a:hover, .partition-light-blue .panel-tools .btn:hover, .partition-light-blue .panel-tools > a:hover {
+//   color: #ffffff !important;
+// }
+
+// .panel-yellow, .partition-yellow {
+//   background-color: #EEB424;
+//   position: relative;
+//   color: #2C2F3B;
+// }
+// .panel-yellow .panel-tools .btn, .panel-yellow .panel-tools > a, .partition-yellow .panel-tools .btn, .partition-yellow .panel-tools > a {
+//   color: rgba(44, 47, 59, 0.7) !important;
+// }
+// .panel-yellow .panel-tools .btn:hover, .panel-yellow .panel-tools > a:hover, .partition-yellow .panel-tools .btn:hover, .partition-yellow .panel-tools > a:hover {
+//   color: #2C2F3B !important;
+// }
+
+.panel-white, .partition-white {
+  background-color: #ffffff;
+  position: relative;
+  color: #5b5b60;
+  border: 1px solid #dcdcdc;
+}
+
+// .panel-dark, .partition-dark {
+//   background-color: #2C2F3B;
+//   position: relative;
+//   color: #ffffff;
+// }
+// .panel-dark .panel-tools .btn, .panel-dark .panel-tools > a, .partition-dark .panel-tools .btn, .partition-dark .panel-tools > a {
+//   color: rgba(255, 255, 255, 0.7) !important;
+// }
+// .panel-dark .panel-tools .btn:hover, .panel-dark .panel-tools > a:hover, .partition-dark .panel-tools .btn:hover, .partition-dark .panel-tools > a:hover {
+//   color: #ffffff !important;
+// }
+
+.panel-scroll {
+  overflow: hidden;
+  position: relative;
+  width: auto;
+  padding-right: 10px !important;
+}
+
+.panel-note {
+  -moz-border-radius: 0;
+  -webkit-border-radius: 0;
+  border-radius: 0;
+  border: none;
+}
+.panel-note .panel-heading {
+  background: url("http://static.stario.net/images/note_dot.png") repeat-x;
+  border-bottom: 0 none;
+  padding-top: 30px;
+  padding-bottom: 10px;
+  top: 0;
+  z-index: 3;
+  position: relative;
+}
+.panel-note .panel-heading h3 {
+  margin: 0;
+}
+.panel-note .panel-body {
+  background: url("http://static.stario.net/images/line_detail.png") repeat;
+  padding: 0;
+  margin: 0 15px;
+  line-height: 18px;
+}
+.panel-note .panel-footer {
+  background: none;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  border-top: none;
+  padding: 10px 15px;
+  margin-bottom: 0;
+}
+.panel-note .panel-footer .avatar-note {
+  width: 30px;
+  height: 30px;
+  float: left;
+  margin-right: 10px;
+}
+.panel-note .panel-footer .avatar-note img {
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+}
+.panel-note .panel-footer .author-note {
+  display: block;
+  line-height: 14px;
+}
+.panel-note .panel-footer .timestamp {
+  color: #999999;
+  display: inline-block;
+  font-size: 11px;
+}
+.panel-note .note-options a {
+  margin-left: 10px;
+  font-size: 12px;
+}
+.panel-note .note-options a:hover {
+  text-decoration: none;
+}
+
+[class^="partition-"]:after {
+  content: " ";
+  visibility: hidden;
+  display: block;
+  height: 0;
+  clear: both;
+}

@@ -1,0 +1,105 @@
+
+.width-5-percent {
+    width: 5%;
+}
+.width-10-percent {
+    width: 10%;
+}
+.container-fullw {
+  margin-left: -15px;
+  margin-right: -15px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 30px;
+  padding-bottom: 15px;
+  position: relative;
+}
+.container-fullw:before {
+  content: " ";
+  position: absolute;
+  height: 1px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  background-image: -o-linear-gradient(left center, transparent, rgba(0, 0, 0, 0.1), transparent);
+  background-image: -webkit-gradient(linear, left center, transparent, rgba(0, 0, 0, 0.1), transparent);
+  background-image: -ms-linear-gradient(left center, transparent, rgba(0, 0, 0, 0.1), transparent);
+  background-image: -moz-linear-gradient(left center, transparent, rgba(0, 0, 0, 0.1), transparent);
+  background-image: -webkit-linear-gradient(left center, transparent, rgba(0, 0, 0, 0.1), transparent);
+  background-image: linear-gradient(to left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0));
+}
+@media (max-width: 768px) {
+  .container-fullw {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+.box .right {
+  text-align: right;
+}
+
+
+#toast-container {
+  margin-top: 50px;
+}
+.loading {
+    position: relative;
+    cursor: default;
+    point-events: none;
+    text-shadow: none!important;
+    color: transparent!important;
+    -webkit-transition: all 0s linear;
+    transition: all 0s linear;
+}
+.loading:before {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    background: rgba(255,255,255,.8);
+    width: 100%;
+    height: 100%;
+    border-radius: .28571429rem;
+    z-index: 100;
+}
+.loading:after {
+    position: absolute;
+    content: '';
+    top: 50%;
+    left: 50%;
+    margin: -1.5em 0 0 -1.5em;
+    width: 3em;
+    height: 3em;
+    -webkit-animation: segment-spin .6s linear;
+    animation: segment-spin .6s linear;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    border-radius: 500rem;
+    border-color: #41b0f1 rgba(0,0,0,.1) rgba(0,0,0,.1);
+    border-style: solid;
+    border-width: .2em;
+    box-shadow: 0 0 0 1px transparent;
+    visibility: visible;
+    z-index: 101;
+}
+@-webkit-keyframes segment-spin {
+    from {
+        -webkit-transform: rotate(0);
+        transform: rotate(0)
+    }
+    to {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg)
+    }
+}
+@keyframes segment-spin {
+    from {
+        -webkit-transform: rotate(0);
+        transform: rotate(0)
+    }
+    to {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg)
+    }
+}
