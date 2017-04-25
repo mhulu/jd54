@@ -11,6 +11,6 @@ class WechatController extends Controller {
 
 	public function getUserInfo() {
 		$user = session('wechat.oauth_user'); // 拿到授权用户资料
-		dd($user);
+		return $user;
 	}
 }
