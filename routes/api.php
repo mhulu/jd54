@@ -50,4 +50,6 @@ Route::group([
 
 	// 流动人口管理
 	Route::resource('pop', 'PopController', ['except' => ['create', 'show']]);
+
+	Route::post('lis', 'LisController@index');
 });

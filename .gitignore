@@ -8,6 +8,7 @@
 /storage/*.key
 *.vscode
 .vscode/*
+sftp-config.json
 */mix-manifest.json
 /vendor
 /.idea
